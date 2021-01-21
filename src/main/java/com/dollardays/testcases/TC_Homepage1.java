@@ -25,7 +25,6 @@ public class TC_Homepage1 extends BaseTest{
 		
 		hp.scrollDown();
 		hp.findPopup();
-		Thread.sleep(2000);
 		boolean img1 = hp.image1Display();
 		Thread.sleep(1000);
 		System.out.println("The image1 under Reccomended For You got captured successfully");
@@ -42,7 +41,7 @@ public class TC_Homepage1 extends BaseTest{
 		hp.findPopup();
 
 		String title1 = driver.getTitle();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		System.out.println("The title of the page from img1 is " + title1);
 		ExtentTestManager.getTest().log(Status.PASS, "Step2: The img1 got clicked under Reccomended for You");
 		
@@ -51,10 +50,9 @@ public class TC_Homepage1 extends BaseTest{
 		hp.scrollDown();
 		
 		hp.clickReccForUtxt1();
-		hp.findPopup();
 
 		String title2 = driver.getTitle();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		System.out.println("The title of the page from txt1 is " + title2);
 		ExtentTestManager.getTest().log(Status.PASS, "Step3: txt1 got clicked under Reccomended for You");
 			
