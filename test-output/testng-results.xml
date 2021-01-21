@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="786658" started-at="2021-01-19T20:04:20 EST" finished-at="2021-01-19T20:17:27 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="786658" started-at="2021-01-19T20:04:20 EST" finished-at="2021-01-19T20:17:27 EST">
+      <class name="com.dollardays.testcases.TC_Homepage1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="beforeClass" is-config="true" duration-ms="14" started-at="2021-01-19T20:04:20 EST" finished-at="2021-01-19T20:04:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="7159" started-at="2021-01-19T20:04:20 EST" finished-at="2021-01-19T20:04:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="homepage1()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="homepage1" duration-ms="250090" started-at="2021-01-19T20:04:27 EST" finished-at="2021-01-19T20:08:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="quit" is-config="true" duration-ms="866" started-at="2021-01-19T20:08:37 EST" finished-at="2021-01-19T20:08:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="6841" started-at="2021-01-19T20:08:38 EST" finished-at="2021-01-19T20:08:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="homepage2()[pri:1, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="homepage2" duration-ms="191944" started-at="2021-01-19T20:08:45 EST" finished-at="2021-01-19T20:11:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage2 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="quit" is-config="true" duration-ms="542" started-at="2021-01-19T20:11:57 EST" finished-at="2021-01-19T20:11:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="6427" started-at="2021-01-19T20:11:58 EST" finished-at="2021-01-19T20:12:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="footer()[pri:2, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="footer" duration-ms="321643" started-at="2021-01-19T20:12:04 EST" finished-at="2021-01-19T20:17:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footer -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="quit" is-config="true" duration-ms="1051" started-at="2021-01-19T20:17:26 EST" finished-at="2021-01-19T20:17:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.TC_Homepage1@f0f2775]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-01-19T20:17:27 EST" finished-at="2021-01-19T20:17:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.TC_Homepage1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
