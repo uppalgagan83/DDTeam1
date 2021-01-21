@@ -21,8 +21,7 @@ public class TC_Homepage1 extends BaseTest{
 		
 		HomePage1 hp = new HomePage1(driver);
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+		driver.manage().maximize();
 		//image 1 start
 		
 		hp.scrollDown();
