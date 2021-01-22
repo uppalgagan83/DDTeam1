@@ -405,9 +405,9 @@ public void homepage2() throws InterruptedException, Throwable {
 	
 
 		ft.Scrolldown1();
-		ft.clickAboutUs();
+		try{ft.clickAboutUs();
 		boolean value = ft.comparingTitles("About Us - DollarDays");
-		try{
+		
 			Assert.assertTrue(value);
 			ExtentTestManager.getTest().log(Status.PASS, "Step2: The link for About Us is clicked");
 			ExtentTestManager.getTest().log(Status.PASS, "Step3: The titles for About Us link are compared.");
