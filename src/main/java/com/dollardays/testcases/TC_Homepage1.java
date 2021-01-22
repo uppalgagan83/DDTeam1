@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.dollardays.listners.ExtentTestManager;
 import com.dollardays.pages.HomePage1;
-
+import java.util.concurrent.TimeUnit;
 public class TC_Homepage1 extends BaseTest{
 	
 	
@@ -21,6 +21,8 @@ public class TC_Homepage1 extends BaseTest{
 		
 		HomePage1 hp = new HomePage1(driver);
 		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
 		//image 1 start
 		
 		hp.scrollDown();
